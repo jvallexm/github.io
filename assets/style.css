@@ -31,7 +31,9 @@ body{
 	background-color: #ffffff;
   float: left;
 }
-
+.bland{
+  text-decoration: none;
+}
 .icon{
 	width: 65px;
 	height: 65px;
