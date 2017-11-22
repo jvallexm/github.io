@@ -1,154 +1,90 @@
 body{
-	color: #777777;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-.title{
-  /*Site Headings*/
-  font-family: 'Georgia', Times, Times New Roman, serif;
-}
-#main{
   background-image: url(../images/regal.png);
 }
-#about{
-	margin-top: 25px;
-}
-#the-middle{
-  padding: 30px;
-  width: 960px;
-}
-#the-middle::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.center{
-	text-align: center;
-}
-#content{
-  padding: 30px;
-	width: 590px;
-	border: 1px solid #dddddd;
-	background-color: #ffffff;
-  float: left;
-}
-.bland{
-  text-decoration: none;
-}
-.icon{
-	width: 65px;
-	height: 65px;
-	margin-top: 10px;
-}
-#sidebar{
-  margin-left: 20px;
-  padding: 20px;
-	width: 270px;
-	border: 1px solid #dddddd;
-	background-color: #ffffff;
- 	height: 180px;
-  float:right;
-}
-.bar{
-	min-height: 10px;
-  clear: left;
-}
-.bottom{
-  	max-width: 400px;
-  	margin-top: 35px;
-}
-#header{
-	background-color: #ffffff;
-	border-bottom: 1px solid #cccccc;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-}
-.gray-line{
-  	padding-bottom: 20px;
-  	border-bottom: 2px solid #cccccc;
-}
-#footer{
-	text-align: center;
-	padding: 40px;
-	background-color: #666666;
-	color: white !important;
-}
-#my-name{
-    width: 300px;
-    padding: 20px;
-}
-.from-top{
-	margin-top: 10px;
-}
-.teal{
-	background-color: #4aaaa5;
-	color: white !important ;
-}
-.regular{
-  	color: #777777;
-}
-.teal-text{
-  font-weight: bold;
-	color: #4aaaa5;
-}
-
-/* About Styles */ 
-
-#my-face{
-  height: 150px;
-  width: 150px;
-  float: left;
-  margin-right: 20px;
-}
-
-#quote{
+.line{
+  background-color: black;
+  min-height: 2px;
+  margin-left: 5px;
+  margin-right: 5px;
   margin-bottom: 20px;
 }
-
-/* Form Styles */
-
-input{
-  	width: 100%;
+#name{
+  max-width: 800px;
 }
-textarea{
-  	width: 100%;
-  	height: 250px;
+#header{
+  padding-top: 20px;
+  max-width: 600px;
+  font-family: "Josefin Sans";
 }
-h5{
-  	padding: 5px;
-  	padding-top: 15px;
-  	padding-left: 0px;
-  	padding-bottom: 0px;
+.col{
+  text-align: center;
 }
-button{
-  border-radius: 0;
- 	padding: 10px;
-	padding-left: 35px;
-  padding-right: 35px;
+#main{
+  background-color: white;
+  max-width: 700px;
+  margin-top: 40px;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid #dddddd;
 }
-
-.padder{
-	min-height: 20px;
+#my-face{
+  width: 250px;
+  height: 250px;
+  background-color: black;
+  border-radius: 50%;
 }
-
+#pages{
+  margin-top: 20px;
+}
+.middle-text
+{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#words{
+  margin-top: 10px;
+}
+#title{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+#the-middle{
+  background-color: red;
+}
 /* Portfolio Styles */
-
-.spacer{
-  /* Spaces the middle row */
-  margin-top: 45px;
-  margin-bottom: 45px;
-}
 
 .project{
   /*Each project*/
-  height: 180px;
-  width: 250px;
+  height: 200px;
+  width: 300px;
 }
-
 .obi{
   /* Strip over each project */
   position: absolute;
-  width: 250px;
+  width: 300px;
   padding-top: 16px;
   padding-bottom: 8px;
   z-index: 1;
   margin-top: -65px;
+}
+.rel{
+  position: relative;
+  width: 300px;
+}
+.teal{
+	background-color: #4aaaa5;
+	color: white !important ;
+}  
+.spacer{
+  margin: 20px 0px 20px 0px;
+}
+.left{
+  padding-left: 0px;
+}
+.right{
+}
+.no-padding{
+  margin: 0px;
 }
