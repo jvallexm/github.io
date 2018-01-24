@@ -1,0 +1,174 @@
+/* Color Pallette https://coolors.co/5d4e60-826c7f-a88fac-d4b2d8-efcefa */
+
+/* Main styles */
+
+body{
+  background-image: url("https://jvallexm.github.io/images/regal.png");
+}
+
+.btn{
+  padding: 6px 12px 6px 12px;
+  margin: 2px 3px 0px 3px;
+  box-shadow: 2px 2px 2px #5D4E60;
+  font-size: 150%;
+}
+
+h1{
+  font-size: 300%;
+}
+
+header{
+  font-family: "Fjalla One";
+  background-color: #EFCEFA;
+  color: #5D4E60;
+  text-shadow: 2px 2px white;
+  width: 800px;
+  margin-top: 60px;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.purple-shadow{
+  box-shadow: 2px 2px 2px #5D4E60,
+               1px -1px 1px #826C7F,
+              -1px 1px 1px #826C7F,
+              -1px -1px 1px #826C7F;
+}
+
+#title-row{
+  width: 700px; 
+}
+
+#my-face{
+  padding: 0px;
+  height: 305px;
+  width: 305px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 4px white,
+              4px -4px 4px white,
+              -4px 4px 4px white,
+              -4px -4px 4px white;
+}
+
+#my-name{
+  margin-top: 90px;
+}
+
+#my-title{
+  margin-top: -3px;
+  font-size: 175%;
+}
+
+.font-150{
+  font-size: 150%;
+}
+
+nav{
+  font-family: "Fjalla One";
+  color: white;
+  text-shadow: 2px 2px 2px #5D4E60;
+  background-color: #826C7F;
+  width: 800px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #5D4E60;
+  padding: 5px;
+}
+
+section{
+  background-color: white;
+  width: 800px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #5D4E60;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+#section-title{
+  margin-left: 10px;
+  color:  #5D4E60;
+  font-family: "Fjalla One";
+  font-size: 250%;
+  text-shadow: 2px 2px 2px #EFCEFA;
+}
+
+#line{
+ margin-top: -12px;
+ margin-bottom: 5px;
+ background-color: #5D4E60;
+ height: 5px;
+ box-shadow: 2px 2px 2px #EFCEFA;
+}
+
+a{
+  text-decoration: none !important;
+  color: white;
+}
+
+a:hover{
+  color: white;
+}
+
+a:visited{
+  color: none;
+}
+
+/* About Styles */
+
+p{
+  padding: 5px;
+  font-size: 60%;
+  font-family: "Noto Sans";
+}
+
+.black-text{
+   color: black !important;
+}
+
+/* Portfolio Styles */
+
+#portfolio-top{
+  margin-top: 0px;
+}
+
+#portfolio-bottom{
+  margin-bottom: -10px;
+}
+
+.projects-row{
+  padding: 0px 7px 0px 7px;
+}
+
+.project-image{
+  width: 100%;
+  min-height: 250px;
+  border-radius: 5px;
+}
+
+.port-col{
+  padding: 0px;
+  margin: 0px;
+}
+
+.project{
+  margin: 9px;
+  position: relative;
+}
+
+.obi{
+  /* Strip over each project */
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: #5D4E60;
+  color: white;
+  height: 25%;
+  bottom: 7%;
+  padding-bottom: 10px;
+  font-family: "Fjalla One";
+ /* box-shadow: 0px 1px 1px #5D4E60,
+              0px -1px 1px #5D4E60;*/
+}
