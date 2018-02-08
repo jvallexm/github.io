@@ -144,6 +144,7 @@ p{
   width: 100%;
   min-height: 250px;
   border-radius: 5px;
+  box-shadow: 2px 2px #EFCEFA;
 }
 
 .port-col{
